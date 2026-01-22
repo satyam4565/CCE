@@ -1,0 +1,13 @@
+{
+  "id": "transport-vehicle-registration-001",
+  "domain": "Transport",
+  "purpose": "Vehicle Registration",
+  "sub_purposes": ["New Vehicle Registration", "Vehicle Transfer", "Vehicle Re-registration", "Commercial Vehicle Registration", "Electric Vehicle Registration"],
+  "content": "Transport Domain - Vehicle Registration Regulations\n\nVehicle registration is governed by state DMV regulations and federal emissions standards (EPA).\n\nFor New Vehicle Registration: Required attributes include owner name, date of birth, residential address, vehicle identification number (VIN), vehicle make/model/year, proof of ownership (title or manufacturer's certificate of origin), proof of insurance, and sales tax payment. Lienholder information if vehicle is financed.\n\nFor Vehicle Transfer: Required attributes include seller name and address, buyer name and address, VIN, odometer reading (federal requirement), transfer date, title document, and insurance information for new owner. Notarized signatures may be required. Sales price for tax calculation.\n\nFor Vehicle Re-registration: Required attributes include current registration number, owner identifier, updated address if changed, proof of insurance, emissions test results if required by state, and registration fee payment. Vehicle inspection may be required for older vehicles.\n\nFor Commercial Vehicle Registration: Required attributes include all standard registration requirements PLUS USDOT number for interstate commerce, proof of insurance meeting federal minimums, weight certification, and commercial use declaration. Hazardous materials registration if applicable.\n\nFor Electric Vehicle Registration: Required attributes include standard registration requirements PLUS electric vehicle certification, battery capacity information for tax credit purposes in some states, and charging infrastructure eligibility verification if applying for incentives.\n\nUNNECESSARY Attributes: Social Security Number is not required for vehicle registration (only needed for driver licensing). Religion, ethnicity, employment information are unnecessary. Email is optional unless requesting electronic registration renewal.\n\nFederal Odometer Act (49 USC 32701) requires odometer disclosure on transfers. Clean Air Act requires emissions testing in certain areas.\n\nPrivacy: Vehicle registration information may be disclosed to law enforcement, insurance companies, and toll authorities. Owner can opt-out of public directory in some states.",
+  "regulations": ["State DMV Regulations", "Federal Odometer Act", "Clean Air Act", "EPA Vehicle Standards"],
+  "metadata": {
+    "source": "State DMV Vehicle Registration Statutes",
+    "last_updated": "2024"
+  }
+}
+

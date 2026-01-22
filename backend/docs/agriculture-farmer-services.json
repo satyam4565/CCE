@@ -1,0 +1,13 @@
+{
+  "id": "agriculture-farmer-services-001",
+  "domain": "Agriculture",
+  "purpose": "Farmer Services",
+  "sub_purposes": ["Farmer Registration", "Crop Insurance", "Farm Subsidy Application", "Kisan Credit Card", "Soil Health Card"],
+  "content": "Agriculture Domain - Farmer Services Regulations\n\nFarmer services are governed by USDA programs, state agriculture departments, and financial regulations for agricultural credit.\n\nFor Farmer Registration: Required attributes include farmer name, date of birth, land ownership/lease documentation, land area, farm location (address or GPS coordinates), primary crops grown, and contact information. Tax identification number (TIN) or SSN required for government program eligibility. Bank account details for direct benefit transfers.\n\nFor Crop Insurance: Required attributes include farmer identifier, insured crop type, acreage planted, planting dates, farm location, insurance coverage level selected, and premium payment information. Historical yield data may be required for Actual Production History (APH) plans. Land ownership or lease documentation required.\n\nFor Farm Subsidy Application: Required attributes include farmer name, TIN/SSN (required for tax reporting), farm identification number, crop types and acreage, proof of land ownership or lease, bank account for direct deposit, and compliance with conservation requirements. Income information may be required for means-tested programs.\n\nFor Kisan Credit Card: Required attributes include farmer name, date of birth, identity proof (Aadhaar or government ID), land ownership documents, crop details, bank account information, credit history, and KYC documents per banking regulations. Collateral information if required.\n\nFor Soil Health Card: Required attributes include farmer name, land parcel identifier, GPS coordinates or survey number, crop history, and soil sample collection date. Contact information for card delivery. Land ownership verification may be required.\n\nUNNECESSARY Attributes: Religion, caste (unless specifically required for targeted government programs with legal basis), political affiliation are unnecessary. Email is optional unless digital delivery is requested.\n\nUSDA Privacy Act applies to collection of SSN for federal agricultural programs. State agriculture departments follow state privacy laws.\n\nData Sharing: Farmer data may be shared between USDA programs, state agriculture departments, and research institutions for agricultural statistics (aggregated and anonymized).",
+  "regulations": ["USDA Privacy Act", "Federal Crop Insurance Act", "Banking KYC Regulations", "State Agriculture Department Rules"],
+  "metadata": {
+    "source": "USDA Program Regulations",
+    "last_updated": "2024"
+  }
+}
+

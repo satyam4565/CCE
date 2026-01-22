@@ -1,0 +1,13 @@
+{
+  "id": "transport-enforcement-legal-001",
+  "domain": "Transport",
+  "purpose": "Enforcement & Legal",
+  "sub_purposes": ["E-Challan Issuance", "Fine Payment", "Court Case Tracking", "Appeal Management", "Violation History Tracking"],
+  "content": "Transport Domain - Enforcement and Legal Proceedings\n\nTraffic enforcement and legal proceedings are governed by traffic laws, due process requirements, and court regulations.\n\nFor E-Challan Issuance: Required attributes include vehicle registration number, violation type, violation location, violation date/time, vehicle owner name and address (from registration), fine amount, legal basis (statute/code section), officer identifier, and evidence (photo/video). Driver identity required for moving violations. Offender's date of birth may be required for identity verification.\n\nFor Fine Payment: Required attributes include challan number, payment amount, payment method, payment date, transaction ID, and payer information (name and contact). Bank account or payment card information for electronic payment (must be tokenized per PCI DSS). Receipt generation requires payment confirmation.\n\nFor Court Case Tracking: Required attributes include case number, defendant name and identification, violation details, court date, hearing outcomes, judgment, and case status. Defendant address for service of process. Legal representation information if applicable.\n\nFor Appeal Management: Required attributes include original challan/case reference, appellant name and identification, appeal grounds, appeal filing date, hearing dates, appeal decision, and status. Supporting documents as per appeal rules.\n\nFor Violation History Tracking: Required attributes include person identifier (driver license number or vehicle registration), violation records (date, type, location, outcome), points accumulation, license suspension status, and reinstatement requirements. Violation history is retained for statutory periods (typically 3-5 years).\n\nUNNECESSARY Attributes: Religion, ethnicity, political affiliation are unnecessary for traffic enforcement. Email is optional unless electronic notifications are requested. Social media profiles are not required.\n\nDue Process: Violators must be notified of charges, have right to contest, and receive fair hearing. Personal information must be protected per privacy laws.\n\nData Sharing: Violation records may be shared with insurance companies (with consent or legal basis), law enforcement, and other jurisdictions for repeat offender tracking.",
+  "regulations": ["Traffic Laws", "Due Process Requirements", "Court Rules", "PCI DSS", "State DMV Regulations"],
+  "metadata": {
+    "source": "Traffic Enforcement Regulations",
+    "last_updated": "2024"
+  }
+}
+

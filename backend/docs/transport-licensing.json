@@ -1,0 +1,13 @@
+{
+  "id": "transport-licensing-001",
+  "domain": "Transport",
+  "purpose": "Licensing",
+  "sub_purposes": ["Driving License Application", "License Renewal", "International Driving Permit", "Commercial License", "Learner Permit"],
+  "content": "Transport Domain - Driver Licensing Regulations\n\nDriver licensing is governed by state Department of Motor Vehicles (DMV) regulations and federal commercial driver regulations (FMCSA).\n\nFor Driving License Application: Required attributes include full legal name, date of birth, social security number (SSN) or proof of legal presence, residential address, proof of identity (birth certificate, passport), proof of residency, and vision test results. Physical description (height, weight, eye color, hair color) is required for license photo. Medical conditions affecting driving must be disclosed.\n\nFor License Renewal: Required attributes include current license number, identity verification, updated address if changed, vision test results, and renewal fee payment. Medical certification required for commercial licenses. Driving record must be clear of suspensions.\n\nFor International Driving Permit: Required attributes include valid domestic license number, passport number, passport photo, date of birth, and country of residence. This is a translation document, not a separate license.\n\nFor Commercial License: Required attributes include all standard license requirements PLUS medical examiner's certificate (DOT physical), driving record check, background check for hazardous materials endorsement, and proof of commercial driver training completion. Drug and alcohol testing records may be required.\n\nFor Learner Permit: Required attributes include age verification (typically 15-16 minimum), identity documents, parent/guardian consent if minor, proof of enrollment in driver education program, and vision test. Social Security Number required for identity verification.\n\nUNNECESSARY Attributes: Religion, ethnicity, political affiliation, marital status are not required for licensing. Bank account details are unnecessary (only payment method needed). Email address is optional unless requesting electronic communications.\n\nPrivacy Act of 1974 applies to federal collection of SSN. State DMVs must follow state privacy laws. SSN collection must be justified under Privacy Act.\n\nData Retention: License records are typically retained indefinitely by DMV for law enforcement and identity verification purposes.",
+  "regulations": ["State DMV Regulations", "FMCSA 49 CFR 383", "Privacy Act of 1974", "REAL ID Act"],
+  "metadata": {
+    "source": "FMCSA Commercial Driver Regulations",
+    "last_updated": "2024"
+  }
+}
+

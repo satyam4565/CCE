@@ -1,0 +1,13 @@
+{
+  "id": "gdpr-data-minimization-001",
+  "domain": "General",
+  "purpose": "Data Protection",
+  "sub_purposes": ["Data Minimization", "Purpose Limitation", "Storage Limitation"],
+  "content": "GDPR Data Minimization Principles\n\nArticle 5(1)(c) - Data Minimization: Personal data shall be adequate, relevant and limited to what is necessary in relation to the purposes for which they are processed.\n\nCRITICAL REQUIREMENTS:\n1. Only collect data that is strictly necessary for the stated purpose\n2. If an attribute is not directly required for the specific purpose, it must be classified as UNNECESSARY\n3. Do not collect data 'just in case' - future potential use is not a valid justification\n4. Regularly review data collection practices and eliminate unnecessary attributes\n\nPurpose Limitation (Article 5(1)(b)): Personal data must be collected for specified, explicit and legitimate purposes and not further processed in a manner incompatible with those purposes.\n\nStorage Limitation (Article 5(1)(e)): Personal data must be kept in a form which permits identification of data subjects for no longer than is necessary for the purposes for which the personal data are processed.\n\nATTRIBUTE CLASSIFICATION GUIDANCE:\n- REQUIRED: Only if legally mandated OR absolutely essential for core functionality of the stated purpose\n- OPTIONAL: Useful but not strictly necessary; enhances service but collection is not mandatory\n- UNNECESSARY: Should NOT be collected as it violates data minimization principles or is irrelevant to the specific purpose\n\nExamples of UNNECESSARY attributes:\n- Religion (unless required by law or directly relevant to service, e.g., religious accommodation)\n- Ethnicity/Race (unless required by law for anti-discrimination reporting)\n- Political affiliation (almost never necessary)\n- Marital status (unless directly relevant, e.g., spousal benefits)\n- Email address (optional unless digital communication is essential part of service)\n- Social media profiles (rarely necessary)\n- Full address when partial address or postal code suffices\n\nWhen analyzing attributes, if the retrieved regulatory context does not explicitly justify an attribute for the specific sub-purpose, it MUST be classified as UNNECESSARY.",
+  "regulations": ["GDPR Article 5", "GDPR Article 6", "GDPR Article 9"],
+  "metadata": {
+    "source": "GDPR Regulation (EU) 2016/679",
+    "last_updated": "2024"
+  }
+}
+

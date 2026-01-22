@@ -1,0 +1,13 @@
+{
+  "id": "transport-public-transport-001",
+  "domain": "Transport",
+  "purpose": "Public Transport",
+  "sub_purposes": ["Bus Pass Application", "Metro Card Registration", "Train Ticket Booking", "Senior Citizen Concession", "Student Concession Pass"],
+  "content": "Transport Domain - Public Transport Services\n\nPublic transportation services are subject to ADA accessibility requirements and local transit authority regulations.\n\nFor Bus Pass Application: Required attributes include applicant name, date of birth (for age verification for senior/youth passes), proof of residency for discounted passes, photo for personalized passes, and payment information. Contact information (phone/email) for pass delivery and expiration notifications.\n\nFor Metro Card Registration: Required attributes include card number, cardholder name, contact information for lost card reporting, and payment method for auto-reload if selected. Date of birth required for age-based fare discounts. Registration is typically optional unless applying for discounted fares.\n\nFor Train Ticket Booking: Required attributes include passenger name (for reservation), travel date, origin/destination, seat preference, and payment information. Government-issued ID number may be required for certain high-speed or long-distance trains. Contact information for ticket delivery and delay notifications.\n\nFor Senior Citizen Concession: Required attributes include name, date of birth (must be 65+ or age specified by authority), proof of age (government ID), proof of residency in service area, and photo for ID card. Income verification is NOT typically required for age-based senior discounts.\n\nFor Student Concession Pass: Required attributes include student name, date of birth, school enrollment verification (student ID or enrollment letter), proof of enrollment in qualifying institution, and photo. Grade level or student status may be required. Parent/guardian information if student is minor.\n\nUNNECESSARY Attributes: Social Security Number is not required for public transport services. Religion, ethnicity, income details (unless means-tested program), medical information are unnecessary. Full address is unnecessary if residency is verified by other means.\n\nADA Title II requires accessible public transportation. Concession programs must not discriminate based on protected characteristics.\n\nPayment Card Industry Data Security Standard (PCI DSS) applies if storing payment card information.",
+  "regulations": ["ADA Title II", "Local Transit Authority Regulations", "PCI DSS", "State Public Transportation Laws"],
+  "metadata": {
+    "source": "ADA Public Transportation Requirements",
+    "last_updated": "2024"
+  }
+}
+

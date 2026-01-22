@@ -1,0 +1,13 @@
+{
+  "id": "health-medical-records-001",
+  "domain": "Health",
+  "purpose": "Medical Records",
+  "sub_purposes": ["Electronic Health Records", "Lab Results Management", "Prescription Management", "Medical Imaging Storage", "Health History Documentation"],
+  "content": "Health Domain - Medical Records Regulations\n\nHIPAA Security Rule (45 CFR 164.312) requires secure storage and access controls for electronic health records (EHR).\n\nFor Electronic Health Records: Required attributes include patient identifier, encounter dates, diagnoses, treatments, procedures, medications, allergies, and provider notes. Clinical decision-making requires access to relevant historical data. Lab values and imaging results are integral to EHR.\n\nFor Lab Results Management: Required attributes include patient identifier, test order date, test type, results, reference ranges, ordering physician, and result date. Patient contact information is required for critical value notifications. Insurance information is needed for billing.\n\nFor Prescription Management: Required attributes include patient identifier, prescribing physician DEA number, medication name, dosage, frequency, quantity, and dispensing pharmacy information. Allergies and drug interactions must be verified. Insurance formulary information is required for coverage determination.\n\nFor Medical Imaging Storage: Required attributes include patient identifier, imaging modality (X-ray, MRI, CT), study date, ordering physician, radiology report, and DICOM metadata. Patient demographics are stored in DICOM headers for patient matching.\n\nFor Health History Documentation: Required attributes include patient identifier, condition diagnoses, dates of onset, treatment history, family medical history (relevant genetic conditions), and social history when medically relevant (smoking, alcohol use).\n\nUNNECESSARY Attributes: Religion is not medically relevant unless it affects treatment (e.g., blood transfusions). Ethnicity should not be stored unless part of approved research protocol. Political affiliation is never necessary.\n\nData Retention: HIPAA requires retention of medical records for state-mandated periods (typically 6-10 years for adults, longer for minors).\n\nGDPR Article 9(2)(h) allows processing special category data (health data) when necessary for healthcare provision.",
+  "regulations": ["HIPAA Security Rule", "HIPAA Privacy Rule", "GDPR Article 9", "21 CFR Part 11 (FDA)"],
+  "metadata": {
+    "source": "HIPAA Security Rule 45 CFR 164.312",
+    "last_updated": "2024"
+  }
+}
+

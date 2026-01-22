@@ -1,0 +1,13 @@
+{
+  "id": "health-patient-management-001",
+  "domain": "Health",
+  "purpose": "Patient Management",
+  "sub_purposes": ["Patient Registration", "Patient Admission", "Patient Discharge", "Outpatient Services", "Emergency Services"],
+  "content": "Health Domain - Patient Management Regulations\n\nHIPAA (Health Insurance Portability and Accountability Act) mandates that healthcare providers collect only the minimum necessary protected health information (PHI) required for patient management activities.\n\nFor Patient Registration: Required attributes include legal name, date of birth, contact information (phone, address), and insurance information if applicable. Social Security Number is required for billing purposes when insurance is involved, but not for registration itself.\n\nFor Patient Admission: Required attributes include patient identifier, admission date, admission type (inpatient/outpatient), and responsible physician. Emergency contact information is required for inpatient admissions. Medical history relevant to current admission is necessary.\n\nFor Patient Discharge: Required attributes include discharge date, discharge disposition, discharge instructions, and follow-up appointment details. Final diagnosis codes are required for billing compliance.\n\nFor Outpatient Services: Required attributes include appointment date/time, service type, provider identifier, and basic patient demographics (name, DOB, contact). Insurance verification requires policy number and group number.\n\nFor Emergency Services: Required attributes include patient identifier, arrival time, chief complaint, vital signs, and emergency contact. For unconscious or incapacitated patients, identification may be minimal initially (John/Jane Doe protocols apply).\n\nData Minimization Principle: Religion and ethnicity should NOT be collected unless required by law (e.g., for government reporting or clinical research with IRB approval). Blood type is unnecessary for routine patient management unless surgery or blood transfusion is anticipated.\n\nGDPR Article 5(1)(c) - Data Minimization: Personal data shall be adequate, relevant and limited to what is necessary in relation to the purposes for which they are processed.",
+  "regulations": ["HIPAA", "GDPR Article 5", "CCPA Health Data Provisions"],
+  "metadata": {
+    "source": "HIPAA Privacy Rule (45 CFR 164.502(b))",
+    "last_updated": "2024"
+  }
+}
+

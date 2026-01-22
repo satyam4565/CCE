@@ -1,0 +1,13 @@
+{
+  "id": "health-insurance-billing-001",
+  "domain": "Health",
+  "purpose": "Insurance & Billing",
+  "sub_purposes": ["Insurance Claim Processing", "Medical Billing", "Insurance Verification", "Payment Processing", "Reimbursement Claims"],
+  "content": "Health Domain - Insurance and Billing Regulations\n\nHIPAA Transaction Standards (45 CFR 162) govern electronic healthcare transactions including claims submission.\n\nFor Insurance Claim Processing: Required attributes include patient name, date of birth, member ID, policy number, group number, service dates, diagnosis codes (ICD-10), procedure codes (CPT/HCPCS), provider NPI, and service charges. Tax ID or SSN is required for certain government insurance programs (Medicare/Medicaid).\n\nFor Medical Billing: Required attributes include patient demographics (name, DOB, address), insurance information, guarantor information if different from patient, service codes, dates of service, and charges. Employer information is required for workers' compensation claims.\n\nFor Insurance Verification: Required attributes include patient name, date of birth, member ID or policy number, and date of service. Pre-authorization numbers when required. Benefit eligibility does NOT require medical history.\n\nFor Payment Processing: Required attributes include patient identifier, account number, amount owed, payment method, and transaction date. Credit card information must be tokenized per PCI DSS. Bank account information required for ACH payments.\n\nFor Reimbursement Claims: Required attributes include claimant information, original claim reference, justification for reimbursement, receipts/invoices, and payment confirmation. Tax identification is required for tax reporting of reimbursed expenses.\n\nUNNECESSARY Attributes: Medical diagnosis details are unnecessary for payment processing itself (only amounts and dates needed). Blood type, religion, ethnicity are never required for billing. Emergency contact is not needed unless patient is minor.\n\nHIPAA Minimum Necessary Rule: Billing departments should only access PHI necessary for their specific function. Access to full medical records for billing purposes violates minimum necessary principle.\n\nGDPR Article 6(1)(b) - Contract Performance: Processing is lawful when necessary for performance of a contract (insurance contract).",
+  "regulations": ["HIPAA Transaction Standards", "HIPAA Minimum Necessary Rule", "PCI DSS", "GDPR Article 6"],
+  "metadata": {
+    "source": "HIPAA 45 CFR 162",
+    "last_updated": "2024"
+  }
+}
+

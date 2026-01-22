@@ -1,0 +1,13 @@
+{
+  "id": "rural-development-employment-001",
+  "domain": "Rural Development",
+  "purpose": "Employment Schemes",
+  "sub_purposes": ["MGNREGA Registration", "Rural Employment Program", "Skill Development Training", "Self Help Group Formation", "Wage Payment System"],
+  "content": "Rural Development Domain - Employment Schemes\n\nEmployment schemes are governed by national rural employment acts (e.g., MGNREGA in India), labor laws, and social security regulations.\n\nFor MGNREGA Registration: Required attributes include worker name, date of birth, gender, address (rural area proof), family details (for job card), bank account or post office account for wage payment, Aadhaar number or alternative ID, and photograph. Caste/tribe information required if applying for reserved category benefits under legal provisions.\n\nFor Rural Employment Program: Required attributes include worker name, age verification, proof of rural residence, family composition, employment history if applicable, skill level assessment, and bank account for payment. Income certificate may be required for targeted programs.\n\nFor Skill Development Training: Required attributes include trainee name, age, education level, previous training history, area of skill interest, contact information, and attendance tracking. Performance assessment data. Bank account for stipend payment if applicable.\n\nFor Self Help Group Formation: Required attributes include group member names, addresses, age, occupation, savings contribution capacity, bank account details (individual and group), and group objectives. Meeting attendance records. Loan history if group engages in microfinance.\n\nFor Wage Payment System: Required attributes include worker identifier (job card number or ID), work assignment details, days worked, wage rate, bank account or payment method, and transaction records. Payment authentication (Aadhaar-based or biometric) required for direct benefit transfer.\n\nUNNECESSARY Attributes: Religion is unnecessary unless for minority-targeted programs with legal basis. Political affiliation is never required. Email is optional unless digital communication is preferred. Social media profiles are unnecessary.\n\nRight to Information Act applies to employment scheme data. Wage payment data must be transparent and auditable.\n\nData Sharing: Employment data may be shared between employment departments, social security systems, and financial institutions for benefit delivery and fraud prevention.",
+  "regulations": ["MGNREGA Act", "Right to Information Act", "Direct Benefit Transfer Guidelines", "Labor Laws"],
+  "metadata": {
+    "source": "MGNREGA Operational Guidelines",
+    "last_updated": "2024"
+  }
+}
+
