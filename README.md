@@ -1,5 +1,6 @@
 # Consent Craft Engine
 <video src="DemoVideo_Trimmed.mov" controls autoplay loop muted style="max-width: 100%; border-radius: 10px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);"></video>
+https://github.com/satyam4565/CCE/blob/main/DemoVideo_Trimmed.mov
 
 ### AI-Powered Regulatory Compliance & Data Minimization Platform
 
